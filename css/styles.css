@@ -13,6 +13,23 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-part {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
 /* site nav */
 .site-nav a {
     color: var(--title-text-color)
@@ -29,22 +46,49 @@
 color: var(--hover-text-color)
 }
 
+.site-nav .link.current {
+    color: var(--hover-text-color);
+}
+
 .list {
     list-style: none;
 }
 
 .contacts a {
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
+
+
 
 .contacts .link:hover,
 .contacts .link:focus {
     color: var(--hover-text-color)
 }
 
-/*Features*/
-.features .title {
-    color: var(--title-text-color)
+/* Hero */
+
+.box-hero {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /*button*/
@@ -56,6 +100,49 @@ color: var(--hover-text-color)
 .button.primary {
     background-color: var(--hover-text-color);
     color: var(--primary-bg-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+/*Features*/
+.features .title {
+    color: var(--title-text-color)
+}
+
+
+/*Footer*/
+.footer a {
+    color: #fff;
+    background-color: #2F303A;;
+}
+.footer .info {
+    color: rgba(255, 255, 255, 0.6); 
+}
+
+.logo-tipe {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--hover-text-color);
+}
+.box-gray {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+    background: #2F303A;
 }
 
 
@@ -67,3 +154,4 @@ color: var(--hover-text-color)
 .section-title
 .features
 .button.secondary
+.work
