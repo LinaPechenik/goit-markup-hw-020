@@ -1,11 +1,69 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --hover-text-color: #2196F3; /*accent-color*/
+    --primary-bg-color: #fff;
+}
+/*var(--primary-text-color)*/
 
 
-
-
-.link{
-    color: black;
+.main-page {
+    background-color: var(--primary-bg-color)
+    color: var(--primary-text-color)
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.link:hover{
-    color: blue;
+/* site nav */
+.site-nav a {
+    color: var(--title-text-color)
 }
+
+.site-nav:hover ,
+.site-nav:focus {
+    color: var(--hover-text-color)
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus
+{
+color: var(--hover-text-color)
+}
+
+.list {
+    list-style: none;
+}
+
+.contacts a {
+    color: var(--primary-text-color)
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--hover-text-color)
+}
+
+/*Features*/
+.features .title {
+    color: var(--title-text-color)
+}
+
+/*button*/
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-bg-color)
+}
+
+.button.primary {
+    background-color: var(--hover-text-color);
+    color: var(--primary-bg-color);
+}
+
+
+/*
+.button
+.hero
+.hero-title
+.section
+.section-title
+.features
+.button.secondary
