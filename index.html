@@ -5,46 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business_solution</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
-  <!--посмотреть в лекции общий стиль-->
-
-
-
-
   <body class="site-body">
     <header class="header">
-      <nav>
+      <nav class="header-navigation">
         <a class="header-logo link" href="./index.html"
           ><span class="logo-part">Web</span>Studio</a
         >
         <ul class="site-nav list">
-          <li><a href="./index.html" class="link current">Студія</a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li><a href="#" class="link">Контакти</a></li>
+          <li>
+            <a href="./index.html" class="header-link current link">Студія</a>
+          </li>
+          <li>
+            <a href="./portfolio.html" class="header-link link">Портфоліо</a>
+          </li>
+          <li><a href="#" class="header-link link">Контакти</a></li>
         </ul>
       </nav>
 
       <!-- adress block -->
       <ul class="contacts list">
         <li>
-          <a href="mail:info@devstudio.com" class="link">info@devstudio.com</a>
+          <a href="mail:info@devstudio.com" class="contacts-link link"
+            >info@devstudio.com</a
+          >
         </li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        <li>
+          <a href="tel:+380961111111" class="contacts-link link"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
 
-
-
-
     <main>
       <div class="box-hero">
-      <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="button primary">Замовити послугу</button>
-      </section>
-    </div>
+        <section class="hero">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero-button primary">
+            Замовити послугу
+          </button>
+        </section>
+      </div>
 
       <!--capability-->
       <section class="section">
@@ -165,33 +175,34 @@
 
     <!--contacts-->
     <div class="box-gray">
-
-    <footer class="footer">
-      <a class="footer-logo link" href="./index.html"
+      <footer class="footer">
+        <a class="footer-logo link" href="./index.html"
           ><span class="logo-part">Web</span>Studio</a
         >
-      <address>
-        <ul class="footer list">
-          <li>
-            <a
-              href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              class="link"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li>
-            <a href="mail:info@devstudio.com" class="link info"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="link info">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
-    </footer>
-  </div>
+        <address>
+          <ul class="footer list">
+            <li>
+              <a
+                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="link"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li>
+              <a href="mail:info@devstudio.com" class="link info"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="link info"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </footer>
+    </div>
   </body>
 </html>

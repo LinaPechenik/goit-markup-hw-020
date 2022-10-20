@@ -1,6 +1,7 @@
-body{
-    font-family: "roboto", "raleway";
+body {
+    font-family: "roboto";
 }
+    
 
 
 :root {
@@ -13,62 +14,83 @@ body{
 /*var(--primary-text-color)*/
 
 
+
 /* Header */
 .site-body {
     background-color: var(--primary-bg-color) ;
     color: var(--primary-text-color);
 }
+
+
 /* Logo */
 .header-logo {
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #000000;
-    text-decoration: none;
 }
+
 
 .logo-part {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-}
-/* Site nav */
-.site-nav a {
-    color: var(--title-text-color)
-}
-.site-nav:hover ,
-.site-nav:focus {
-    color: var(--accent-color);
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+   color: #2196F3;
 }
 
-.site-nav .link:hover, 
-.site-nav .link:focus
-{
-color: var(--accent-color);
-}
 
-.site-nav .link.current {
-    color: var(--accent-color);
+.link {
+    text-decoration: none;
 }
 
 .list {
     list-style: none;
 }
-.contacts a {
-    color: var(--primary-text-color);
+
+/* Site nav */
+.header-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
+    color: var(--title-text-color)
 }
-
-.contacts .link:hover,
-.contacts .link:focus {
+.header-link:hover ,
+.header-link:focus {
     color: var(--accent-color);
 }
+
+.header-link.current {
+    color: var(--accent-color);
+}
+
+/*Contacts*/
+.contacts a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+    color: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Hero */
 
@@ -93,18 +115,32 @@ color: var(--accent-color);
 }
 
 /*button*/
-.button.primary {
-    background-color: var(--accent-color);
-    color: var(--primary-bg-color);
+.hero-button {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     display: flex;
+    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    background-color: var(--accent-color);
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Features*/
 .features .title {
@@ -122,6 +158,7 @@ color: var(--accent-color);
 }
 
 .footer-logo {
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
